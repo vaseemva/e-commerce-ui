@@ -39,6 +39,8 @@ class CartScreen extends StatelessWidget {
                   .copyWith(bottomLeft: Radius.zero, bottomRight: Radius.zero)),
           child: Column(
             children: [
+
+              Container(height: 0.6  .h(context),width: 30 .w(context),color: Color(0xff9e9e9e),),
               const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

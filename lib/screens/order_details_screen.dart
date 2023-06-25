@@ -51,7 +51,7 @@ class OrderDetailsScreen extends StatelessWidget {
               ),
               const Text("12"),
               SizedBox(
-                height: 1.h(context),
+                height: 0.2.h(context),
               ),
               const Divider(
                 thickness: 2,
