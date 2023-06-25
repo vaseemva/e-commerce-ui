@@ -1,5 +1,5 @@
-import 'package:ecommerce_ui_akratech/screens/models/order_details_model.dart';
-import 'package:ecommerce_ui_akratech/screens/models/order_history_model.dart';
+import 'package:ecommerce_ui_akratech/models/order_details_model.dart';
+import 'package:ecommerce_ui_akratech/models/order_history_model.dart';
 
 class DummyItems {
   static List<OrderDetailModel> dummyOrders = [

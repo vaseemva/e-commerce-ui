@@ -1,4 +1,4 @@
-import 'package:ecommerce_ui_akratech/screens/models/order_details_model.dart';
+import 'package:ecommerce_ui_akratech/models/order_details_model.dart';
 import 'package:ecommerce_ui_akratech/utils/colors.dart';
 import 'package:ecommerce_ui_akratech/utils/responsive_sizer.dart';
 import 'package:flutter/material.dart';
