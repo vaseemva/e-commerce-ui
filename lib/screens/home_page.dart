@@ -1,3 +1,4 @@
+import 'package:ecommerce_ui_akratech/screens/cart_screen.dart';
 import 'package:ecommerce_ui_akratech/screens/gift_cards_page.dart';
 import 'package:ecommerce_ui_akratech/screens/order_details_screen.dart';
 import 'package:ecommerce_ui_akratech/screens/order_history_page.dart';
@@ -10,7 +11,8 @@ class HomePage extends StatelessWidget {
   final List<Widget> screens = [
     const OrderDetailsScreen(),
     const OrderHistoryPage(),
-    const GiftCardsPage()
+    const GiftCardsPage(),
+    const CartScreen()
   ];
 
   @override
