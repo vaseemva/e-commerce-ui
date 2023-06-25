@@ -1,11 +1,15 @@
 import 'package:ecommerce_ui_akratech/screens/order_details_screen.dart';
+import 'package:ecommerce_ui_akratech/screens/order_history_page.dart';
 import 'package:ecommerce_ui_akratech/utils/responsive_sizer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
 
-  final List<Widget> screens = [const OrderDetailsScreen()];
+  final List<Widget> screens = [
+    const OrderDetailsScreen(),
+    const OrderHistoryPage()
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +31,7 @@ class HomePage extends StatelessWidget {
                               builder: (context) => screens[index],
                             ));
                           },
-                          child: Text("Screen ${index+1}")), 
+                          child: Text("Screen ${index + 1}")),
                     ),
                 separatorBuilder: (context, index) => SizedBox(
                       height: 2.h(context),

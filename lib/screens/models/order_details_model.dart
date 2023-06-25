@@ -5,7 +5,6 @@ class OrderDetailModel {
   int quantity;
   String imageUrl;
 
-  
   OrderDetailModel({
     required this.name,
     required this.price,

@@ -39,8 +39,7 @@ class OrderDetailsScreen extends StatelessWidget {
                       itemCount: 5)),
               const Text(
                 "Description",
-                style:
-                    TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               const Text("Rice, Alo Borta. Bagon Borta.Vegetables, Beef ..."),
               SizedBox(
@@ -48,8 +47,7 @@ class OrderDetailsScreen extends StatelessWidget {
               ),
               const Text(
                 "Size",
-                style:
-                    TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               const Text("12"),
               SizedBox(
@@ -58,7 +56,6 @@ class OrderDetailsScreen extends StatelessWidget {
               const Divider(
                 thickness: 2,
               ),
-            
               const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
