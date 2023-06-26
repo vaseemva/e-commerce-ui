@@ -1,3 +1,4 @@
+import 'package:ecommerce_ui_akratech/screens/checkout_screen.dart';
 import 'package:ecommerce_ui_akratech/utils/colors.dart';
 import 'package:ecommerce_ui_akratech/utils/responsive_sizer.dart';
 import 'package:flutter/material.dart';
@@ -126,7 +127,9 @@ class GiftCardsPage extends StatelessWidget {
                         color: fabColor),
                     height: 6.h(context),
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context) => CheckoutScreen(),));
+                      },
                       style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.transparent,
                           elevation: 0,

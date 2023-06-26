@@ -1,3 +1,5 @@
+import 'package:ecommerce_ui_akratech/screens/order_details_screen.dart';
+import 'package:ecommerce_ui_akratech/screens/order_history_page.dart';
 import 'package:ecommerce_ui_akratech/utils/colors.dart';
 import 'package:ecommerce_ui_akratech/utils/responsive_sizer.dart';
 import 'package:flutter/gestures.dart';
@@ -80,7 +82,7 @@ class CustomDialogue extends StatelessWidget {
                         color: orderPriceColor),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        ;
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context) => OrderDetailsScreen(),));
                       },
                   ),
                   const TextSpan(
@@ -108,7 +110,9 @@ class CustomDialogue extends StatelessWidget {
                           color: fabColor),
                       height: 6.h(context),
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => OrderHistoryPage(),));
+                        },
                         style: ElevatedButton.styleFrom(
                             backgroundColor:
                                 Colors.transparent,

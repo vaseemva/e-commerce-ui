@@ -1,3 +1,4 @@
+import 'package:ecommerce_ui_akratech/screens/gift_cards_page.dart';
 import 'package:ecommerce_ui_akratech/utils/colors.dart';
 import 'package:ecommerce_ui_akratech/utils/dummies.dart';
 import 'package:ecommerce_ui_akratech/utils/responsive_sizer.dart';
@@ -114,7 +115,9 @@ class CartScreen extends StatelessWidget {
                           color: fabColor),
                       height: 6.h(context),
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => GiftCardsPage(),));
+                        },
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.transparent,
                             elevation: 0,

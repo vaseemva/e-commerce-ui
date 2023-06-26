@@ -145,7 +145,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                   ),
                   subtitle: const Text("Ending in 1234"),
                   trailing: Radio(
-                    value: 1,
+                    value: 2,
                     activeColor: orderPriceColor,
                     groupValue: paymentRAdioVAlue,
                     onChanged: (value) {},
@@ -180,7 +180,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                   ),
                   subtitle: const Text("paypal@gmail.com"),
                   trailing: Radio(
-                    value: 1,
+                    value: 3,
                     activeColor: orderPriceColor,
                     groupValue: paymentRAdioVAlue,
                     onChanged: (value) {},

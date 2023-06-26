@@ -1,3 +1,4 @@
+import 'package:ecommerce_ui_akratech/screens/cart_screen.dart';
 import 'package:ecommerce_ui_akratech/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home:const CartScreen(), 
     );
   }
 }
